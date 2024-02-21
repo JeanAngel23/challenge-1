@@ -1,0 +1,223 @@
+body{
+    background-color: #ced4da;
+}
+main{
+ position: fixed;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;   
+}
+.video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover; 
+    display:block;
+}
+
+.alura{
+    width:3%;
+    margin: 1.5em 2em;
+}
+.contenedorpadron{
+    padding-left: 5%;
+}
+.contenedoringresartext{
+    position: fixed;
+    left: 200px;
+    top: 100px;
+    padding-left: 100;
+    width: 60em;
+    height: 40em;
+
+}
+
+
+#inputText{
+    width: 40%;
+    height: 40%;
+    border-width: 5px;
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.Resultado{
+    position:fixed;
+    right: 20px;
+}
+
+.alerta{
+    position: absolute;
+    top: 32em;
+    left: 14em;
+    display: flex;
+    color: yellow;
+
+}
+
+.botones{
+    position: absolute;
+    top: 28em;
+    height: 5em;
+    padding-left: 5%;
+    
+    
+}
+
+#encrip{
+    width: 12em;
+    height: 2.5em;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    border: none;
+    margin-right: 1em;
+    cursor: pointer;
+}
+#desencrip{
+    width: 12em;
+    height: 2.5em;
+    border-radius: 24px;
+    background-color: white;
+    color: #0A3871;
+    font-size: 1em;
+    font-weight: 400;
+    border: none;
+    margin-right: 3em;
+    cursor: pointer;
+
+}
+.contenedorpadron2{
+    display: block;
+    position: fixed;
+    width: 30%;
+    height: 70%;
+    right: 15%;
+    padding-right: 3em;
+    box-sizing: border-box;
+    border-radius: 32px;
+
+}
+#personaje{
+    position: absolute;
+    left: 5em;
+    width: 60%;
+    top: 2em;
+
+}
+.contenedortexto{
+    position: absolute;
+    box-sizing: border-box;
+    top: 20em;
+    left: 4em;
+}
+
+.contenedortexto h3{
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 0.5em;
+    font-family: 'Inter', sans-serif;
+    margin: 0 25px 0 0;
+    
+    
+}
+.contenedortexto p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 2%;  
+    margin: 0 25px 0 0;
+    
+}
+.contenedorcopiar{
+    display: flex;
+    position: absolute;
+    bottom: 3em;
+    top: 25em;
+    padding-left: 2%;
+}
+#copiar{
+    width: 12em;
+    height: 2.5em;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid #000000;
+    cursor: pointer;
+    position: relative;
+    top: 3em;
+    left: 70%;
+}
+.contenedor-resultado{
+    position: absolute;
+    bottom: 330px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+.contenedor-resultado p{
+    color: #495057;
+    font-size: 25px;
+}
+.contenedorpadron2{
+    display: block;
+    position: fixed;
+    width: 30%;
+    height: 35em;
+    right: 10em;
+    padding-right: 50px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+    
+    
+}
+#cambio{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    border:20px 20px black;
+    cursor: pointer;
+}
+#alt{
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    border: transparent;
+    cursor: pointer;
+}
+#alt:hover{
+    color:#000000;
+    text-decoration: underline;
+
+}
+.ocultar{
+    display: none;
+}
